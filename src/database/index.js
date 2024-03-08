@@ -8,3 +8,5 @@ const models = [Aluno];
 const connection = new Sequelize(databaseConfig);
 
 models.forEach((model) => model.init(connection));
+
+/** Agora mudou */
